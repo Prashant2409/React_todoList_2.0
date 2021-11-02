@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-div{
   min-height: 100vh;
+  background-color: rgb(9, 9, 53);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.child-div{
+  text-align: center;
+  margin-top:  12rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ .child-div figure img {
+   width: 10rem;
+   height: 8rem;
+ }
+
+
+ .child-div figure figcaption {
+   color: #fff;
+   font-size: 2.2rem;
+   padding-top: 2rem;
+   text-transform: capitalize;
+ }
+
+
+ .addItem{
+  min-width: 42rem;
+  height: 3.4rem;
+  line-height: 1.42857143;
+  margin-top: 2rem;
+  color: rgb(58,57,57);
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  outline: none;
+  display: flex;
+ }
+
+ input{
+   min-width: 40rem;
+   height: 3.2rem;
+   padding: 1rem 1.2rem;
+   font-size: 1.8rem;
+   line-height: 1.42857143;
+   color: rgb(58,57,57);
+   background-color: #fff;
+   background-image: none;
+   border: none;
+   border-radius: 0.4rem;
+   outline: none;
+ }
+
+ .add-Btn{
+   margin-top: 1rem;
+   color: blue;
+   font-size: 1.5rem;
+ }
+
+ .eachItem{
+  min-width: 42rem;
+  height: 3.4rem;
+  line-height: 1.42857143;
+  margin-top: 2rem;
+  color: rgb(58,57,57);
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  outline: none;
+  display: flex;
+ }
+
+ .eachItem:hover{
+   background-color: rgb(6, 6, 85);
+   color: #fff;
+ }
+
+ h4{
+  min-width: 38rem;
+  height: 3.2rem;
+  padding: 0.2rem 1.8rem;
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 1.42857143;
+  color: inherit;
+  background-image: none;
+  border: none;
+  border-radius: 0.4rem;
+  outline: none;
+ }
+
+ 
+
+ .trash-Btn{
+  margin-top: 1rem;
+  color: crimson;
+  font-size: 1.5rem;
+ }
+
+ .edit-Btn{
+  margin-top: 1rem;
+  color: rgb(24, 192, 150);
+  font-size: 1.5rem;
+  margin-right: 0.28rem;
+ }
+
+.btn{
+  width: 10rem;
+  height: 3em;
+  margin-top: 3rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.2rem;
 }
+
+.effect04:hover{
+ background-color: rgb(18, 18, 77);
+ color: #fff;
+}
+
